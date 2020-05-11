@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Hoa Hồng</title>
+</head>
+<body>
+    <script>
+            let doanhthu = +prompt('Nhập doanh thu');
+            if (doanhthu > 100) {
+                document.write('Hoa hồng =' + (doanhthu*0.1)+ 'VNĐ');
+            } else if ( doanhthu > 50) {
+                document.write('Hoa hồng =' + (doanhthu*0.05)+ 'VNĐ');
+            } else {
+                document.write('Hoa hồng =' +(doanhthu*0.01) + 'VNĐ');
+            }
+    </script>
+</body>
+</html>

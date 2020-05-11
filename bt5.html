@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xếp hạng học lực</title>
+</head>
+<body>
+    <script>
+        let diemkiemtra= +prompt("Nhập vào điểm kiểm tra");
+        let diemthihocky= +prompt("Nhập điểm thi học kỳ");
+        let diemthicuoiky= +prompt("Nhập điểm thi cuối kỳ");
+        let hocluc=(diemkiemtra*2 + diemthihocky*3 + diemthicuoiky*3)/8
+        if (hocluc > 8){
+            document.write('Học Sinh Giỏi');
+        } else if (hocluc > 7 ){
+            document.write('Học Sinh Khá');
+         } else if ( hocluc > 5) {
+            document.write('Học Sinh Trung Bình');
+         }else {
+            document.write('Học Sinh yếu');
+        }
+    </script>
+</body>
+</html>

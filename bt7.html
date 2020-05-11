@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cước Điện Thoại</title>
+</head>
+<body>
+    <script>
+        let goi= +prompt("Nhập cuộc gọi bao nhiêu phút");
+        if (goi > 60) {
+                      document.write('Giá cước =' + (goi*80)+ 'VNĐ');
+                      } 
+        else {   if ( goi > 20 ) {
+                 document.write('Giá cước =' + (goi*13)+ 'VNĐ');
+                 } else {( goi > 10) 
+                document.write('Giá cước =' + (goi*6)+ 'VNĐ');
+                  }
+              }
+    </script>
+    
+</body>
+</html>
